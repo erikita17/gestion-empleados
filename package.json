@@ -1,0 +1,23 @@
+{
+  "name": "gestion-empleados",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon BackEnd/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "D": "^1.0.0",
+    "express": "^4.21.0",
+    "mongoose": "^5.13.22",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.5",
+    "semver": "^7.6.3"
+  }
+}
