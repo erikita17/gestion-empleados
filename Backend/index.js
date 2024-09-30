@@ -7,10 +7,10 @@ const { mongoose } = require('./database'); // no se quiere todo el archivo sino
 // Configuraciones
 app.set('port', process.env.PORT || 3000);
 app.use(morgan('dev')); 
-app.use(express.json()); // m�todo que ayuda a convertir el codigo para que el servidor pueda entender lo que viene del cliente.
+app.use(express.json()); // metodo que ayuda a convertir el codigo para que el servidor pueda entender lo que viene del cliente.
 app.use(cors({origin: 'http://localhost:4200'})); // metodo para comunicar con el cliente
 // rutas de nuestro servidor
-app.use('/api/empleados',require('./routes/empleado.routes'));
+app.use('/api/gestion-empleados',require('./routes/empleado.routes'));
 // Iniciando el servidor
 app.listen(app.get('port'), () => {// esta es una mejor manera de configurar el puerto
     console.log('server activo en el puerto', app.get('port'));

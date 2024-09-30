@@ -11,5 +11,5 @@ const empleadoSchema = new Schema({
     versionKey: false,
 });
 
-const ModelEmpleado = mongoose.model('Empleado', empleadoSchema);
+const ModelEmpleado = mongoose.model('empleado', empleadoSchema);
 module.exports = ModelEmpleado;

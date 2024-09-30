@@ -10,9 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@angular/common": "^18.2.5",
     "cors": "^2.8.5",
     "D": "^1.0.0",
+    "dotenv": "^16.4.5",
     "express": "^4.21.0",
+    "materialize-css": "^1.0.0",
     "mongoose": "^5.13.22",
     "morgan": "^1.10.0"
   },
